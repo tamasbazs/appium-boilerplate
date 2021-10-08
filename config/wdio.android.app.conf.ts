@@ -26,7 +26,7 @@ config.capabilities = [
         'appium:orientation': 'PORTRAIT',
         'appium:automationName': 'UiAutomator2',
         // The path to the app
-        'appium:app': join(process.cwd(), './apps/Android-NativeDemoApp-0.4.0.apk'),
+        'appium:app': '/Users/vagrant/deploy/Android-NativeDemoApp-0.4.0.apk',
         // @ts-ignore
         'appium:appWaitActivity': 'com.wdiodemoapp.MainActivity',
         // Read the reset strategies very well, they differ per platform, see
